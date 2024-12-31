@@ -1,4 +1,4 @@
-local Disk = require('@pkg/luau-disk')
+local Disk = require('../luau_packages/luau_disk')
 
 local Array = Disk.Array
 

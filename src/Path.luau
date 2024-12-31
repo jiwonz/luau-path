@@ -1,6 +1,6 @@
 -- implementation based on Rust path library
 -- https://github.com/rust-lang/rust/blob/bd7d328807a8bb15732ebb764e1ea3df4fbe3fd1/library/std/src/path.rs
-local Disk = require('@pkg/luau-disk')
+local Disk = require('../luau_packages/luau_disk')
 
 local Component = require('./Component')
 local Components = require('./Components')
