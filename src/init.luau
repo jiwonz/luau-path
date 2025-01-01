@@ -1,8 +1,13 @@
 local Path = require('./Path')
+local types = require("./types")
 
-export type Path = Path.Path
-export type AsPath = Path.AsPath
+export type Path = types.Path
+export type AsPath = types.AsPath
 
 return {
-    Path = Path,
+    Path = (Path :: any) :: {
+		new: () -> types.Path,
+		from: (path: types.AsPath) -> types.Path,
+		is: (value: unknown) -> boolean,
+	},
 }
