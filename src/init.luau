@@ -6,7 +6,7 @@ export type AsPath = types.AsPath
 
 return {
     Path = (Path :: any) :: {
-		new: () -> types.Path,
+		new: (path: string) -> types.Path,
 		from: (path: types.AsPath) -> types.Path,
 		is: (value: unknown) -> boolean,
 	},
