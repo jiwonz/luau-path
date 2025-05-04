@@ -1,6 +1,6 @@
 {
   "name": "luau-path",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Luau library to handle file paths based on the Rust path library",
   "license": "MIT",
   "author": "jeparlefrancais <jeparlefrancais21@gmail.com>",
@@ -13,7 +13,7 @@
     "luau",
     "path"
   ],
-  "main": "src/init.lua",
+  "main": "src/init.luau",
   "scripts": {
     "build": "sh ./scripts/build.sh",
     "clean": "rm -rf node_modules build temp",
@@ -30,9 +30,9 @@
     "luau-disk": "^0.1.1"
   },
   "devDependencies": {
-    "@jsdotlua/jest": "^3.6.1-rc.2",
-    "@jsdotlua/jest-globals": "^3.6.1-rc.2",
-    "npmluau": "^0.1.1"
+    "@jsdotlua/jest": "^3.10.0",
+    "@jsdotlua/jest-globals": "^3.10.0",
+    "npmluau": "^0.1.2"
   },
   "packageManager": "yarn@4.2.2"
 }
