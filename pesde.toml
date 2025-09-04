@@ -14,7 +14,7 @@ lib = "src/init.luau"
 default = "https://github.com/pesde-pkg/index"
 
 [engines]
-pesde = "^0.7.0-rc.1"
+pesde = "^0.7.0"
 
 [dependencies]
-luau_disk = { name = "jiwonz/luau_disk", version = "^0.1.4" }
+luau_disk = { name = "jiwonz/luau_disk", version = "^0.2.0" }

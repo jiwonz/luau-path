@@ -1,5 +1,5 @@
-local Path = require("./Path")
-local Component = require("./Component")
+local Path = require("@self/Path")
+local Component = require("@self/Component")
 
 export type Path = Path.Path
 export type AsPath = Path.AsPath
