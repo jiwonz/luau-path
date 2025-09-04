@@ -1,4 +1,4 @@
-local Disk = require('@pkg/luau-disk')
+local Disk = require('@luauPackages/luau_disk')
 
 local Component = require('./Component')
 local Prefix = require('./Prefix')

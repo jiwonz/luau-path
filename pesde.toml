@@ -1,0 +1,20 @@
+name = "jiwonz/luau_path"
+version = "0.1.4"
+description = "A Luau library to handle file paths based on the Rust path library by jeparlefrancais, Uploaded for pesde"
+authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>"]
+repository = "https://github.com/jiwonz/luau-path"
+license = "MIT"
+includes = ["src/**/*.luau", "pesde.toml", "LICENSE.txt", "README.md"]
+
+[target]
+environment = "luau"
+lib = "src/init.luau"
+
+[engines]
+pesde = "^0.7.0"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[dependencies]
+luau_disk = { name = "abidbmt/luau_disk", version = "^0.2.1" }

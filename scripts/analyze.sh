@@ -2,10 +2,10 @@
 
 set -e
 
-TYPES_FILE=globalTypes.d.lua
+TYPES_FILE=globalTypes.d.luau
 
 if [ ! -f "$TYPES_FILE" ]; then
-    curl https://raw.githubusercontent.com/JohnnyMorganz/luau-lsp/main/scripts/globalTypes.d.lua > $TYPES_FILE
+    curl https://raw.githubusercontent.com/JohnnyMorganz/luau-lsp/main/scripts/globalTypes.d.luau > $TYPES_FILE
 fi
 
 luau-lsp analyze --base-luaurc=.luaurc --settings=.luau-analyze.json \

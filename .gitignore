@@ -9,10 +9,11 @@
 
 /temp
 /node_modules
+/*_packages
 /build
 
 .yarn
 
-/globalTypes.d.lua
+/globalTypes.d.luau
 
 **/sourcemap.json

@@ -1,7 +1,7 @@
 -- tests are based of Rust path standard library
 -- https://github.com/rust-lang/rust/blob/40ae34194c586eea3614d3216322053d2e8e7b37/library/std/src/path/tests.rs
 
-local Disk = require('@pkg/luau-disk')
+local Disk = require('@luauPackages/luau_disk')
 local jestGlobals = require('@pkg/@jsdotlua/jest-globals')
 
 local Path = require('../Path')
