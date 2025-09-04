@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 format = 2
 name = "jiwonz/luau_path"
-version = "0.1.4"
+version = "0.2.0"
 target = "luau"
 
 [graph."jiwonz/luau_disk@0.2.0 luau"]
