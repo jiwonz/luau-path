@@ -1,4 +1,4 @@
-local Disk = require('@pkg/luau-disk')
+local Disk = require('@luauPackages/luau_disk')
 local jestGlobals = require('@pkg/@jsdotlua/jest-globals')
 
 local Path = require('../Path')

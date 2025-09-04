@@ -16,6 +16,7 @@ rm -rf temp
 mkdir -p temp
 cp -r src/ temp/
 cp -rL node_modules/ temp/
+cp -rL luau_packages/ temp/
 
 ./scripts/remove-tests.sh temp
 

@@ -1,4 +1,4 @@
-local Path = require('./Path')
+local Path = require('@self/Path')
 
 export type Path = Path.Path
 export type AsPath = Path.AsPath

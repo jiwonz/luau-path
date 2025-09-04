@@ -2,5 +2,5 @@
 /temp
 /build
 
-**/*.d.lua
+**/*.d.luau
 **/*.d.luau

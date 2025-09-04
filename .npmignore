@@ -14,15 +14,15 @@
 /*.txt
 /*.tgz
 
-*.d.lua
 *.d.luau
-*.spec.lua
+*.d.luau
 *.spec.luau
-*.test.lua
+*.spec.luau
+*.test.luau
 *.test.luau
 **/tests
 **/__tests__
-jest.config.lua
+jest.config.luau
 jest.config.luau
 
 **/*.rbxl
