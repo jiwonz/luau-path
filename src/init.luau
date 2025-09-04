@@ -1,5 +1,5 @@
-local Path = require('./Path')
-local types = require("./types")
+local Path = require('@self/Path')
+local types = require("@self/types")
 
 export type Path = types.Path
 export type AsPath = types.AsPath

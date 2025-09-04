@@ -5,9 +5,9 @@ name = "jiwonz/luau_path"
 version = "0.1.4"
 target = "luau"
 
-[graph."jiwonz/luau_disk@0.1.4 luau"]
-direct = ["luau_disk", { name = "jiwonz/luau_disk", version = "^0.1.4", index = "default" }, "standard"]
+[graph."jiwonz/luau_disk@0.2.0 luau"]
+direct = ["luau_disk", { name = "jiwonz/luau_disk", version = "^0.2.0", index = "default" }, "standard"]
 
-[graph."jiwonz/luau_disk@0.1.4 luau".pkg_ref]
+[graph."jiwonz/luau_disk@0.2.0 luau".pkg_ref]
 ref_ty = "pesde"
 index_url = "https://github.com/pesde-pkg/index"

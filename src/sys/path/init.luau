@@ -1,5 +1,5 @@
-local Prefix = require('../../Prefix')
-local parsePrefixWindows = require('./parsePrefix')
+local Prefix = require('../Prefix')
+local parsePrefixWindows = require('@self/parsePrefix')
 
 type Prefix = Prefix.Prefix
 
